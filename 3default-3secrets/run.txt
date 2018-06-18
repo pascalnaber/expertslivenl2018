@@ -1,0 +1,3 @@
+kubectl apply -f C:\repos\pascal\expertslive2018\3default-3secrets\leaderboardapi-deployment.yaml
+
+kubectl apply -f C:\repos\pascal\expertslive2018\3default-3secrets\secret.yaml

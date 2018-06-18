@@ -1,0 +1,4 @@
+kubectl delete deployment --all=true
+kubectl delete pod kuard
+
+docker rm $(docker ps -a -q)

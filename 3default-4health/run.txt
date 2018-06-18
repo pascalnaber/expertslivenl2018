@@ -1,0 +1,5 @@
+kubectl apply -f C:\repos\pascal\expertslive2018\3default-4health\leaderboardapi-deployment.yaml
+
+kubectl apply -f C:\repos\pascal\expertslive2018\3default-4health\kuardlivenesscheck.yaml
+kubectl delete pod kuard
+kubectl port-forward kuard 8585:8080

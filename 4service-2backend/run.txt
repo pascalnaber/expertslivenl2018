@@ -1,0 +1,2 @@
+kubectl apply -f C:\repos\pascal\expertslive2018\4service-2backend\leaderboardapi-deployment.yaml
+kubectl apply -f C:\repos\pascal\expertslive2018\4service-2backend\leaderboardapi-service.yaml

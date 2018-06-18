@@ -1,0 +1,3 @@
+kubectl create namespace horizontalscaling
+
+kubectl apply -f C:\repos\pascal\expertslive2018\hpa\horizontalscaling.yaml

@@ -1,0 +1,7 @@
+kubectl apply -f C:\repos\pascal\expertslive2018\3default-2rollingupdate\leaderboardapi-deployment.yaml
+
+
+kubectl rollout history deployment/leaderboard-api
+
+kubectl rollout undo deployment/nginx-deployment
+kubectl rollout undo deployment/nginx-deployment --to-revision=1

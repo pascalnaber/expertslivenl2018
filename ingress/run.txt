@@ -1,0 +1,14 @@
+kubectl create namespace ingress
+kubectl create namespace ingressdemo
+
+kubectl apply -f C:\repos\pascal\expertslive2018\ingress\leaderboardapi-deployment.yaml
+kubectl apply -f C:\repos\pascal\expertslive2018\ingress\leaderboardapi-service.yaml
+kubectl apply -f C:\repos\pascal\expertslive2018\ingress\gamingwebapp-deployment.yaml
+kubectl apply -f C:\repos\pascal\expertslive2018\ingress\gamingwebapp-service.yaml
+kubectl apply -f C:\repos\pascal\expertslive2018\ingress\secret.yaml
+
+kubectl apply -f C:\repos\pascal\expertslive2018\ingress\DeployDefaultBackend.yaml
+kubectl apply -f C:\repos\pascal\expertslive2018\ingress\DeployIngressController.yaml
+kubectl apply -f C:\repos\pascal\expertslive2018\ingress\DeployServiceIngressService.yaml
+kubectl apply -f C:\repos\pascal\expertslive2018\ingress\gamingwebapp-ingress.yaml
+kubectl apply -f C:\repos\pascal\expertslive2018\ingress\gamingwebapp-ingress.2.yaml

@@ -1,0 +1,4 @@
+kubectl create namespace service
+
+kubectl apply -f C:\repos\pascal\expertslive2018\4service-2backend\secret.yaml
+

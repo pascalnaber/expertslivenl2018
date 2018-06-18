@@ -1,0 +1,2 @@
+kubectl apply -f C:\repos\pascal\expertslive2018\4service-3frontend\gamingwebapp-deployment.yaml
+kubectl apply -f C:\repos\pascal\expertslive2018\4service-3frontend\gamingwebapp-service.yaml
